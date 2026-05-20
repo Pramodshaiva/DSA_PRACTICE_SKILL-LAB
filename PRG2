@@ -1,0 +1,13 @@
+def linear_search(products, target):
+    for item in products:
+        if item == target:
+            return True
+    return False
+
+products = ['Rice', 'Sugar', 'Milk', 'Oil', 'Soap']
+target = 'Milk'
+
+if linear_search(products, target):
+    print("Product found")
+else:
+    print("Product not found")
